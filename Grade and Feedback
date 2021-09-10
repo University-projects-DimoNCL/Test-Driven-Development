@@ -1,0 +1,26 @@
+Grade 
+TDD 1:Implementation of an appointment manager - 56.67% (17/30) 
+TDD2: Reflective report - 100% (5/5)
+
+Feedback:
+
+Individual Feedback for "TDD 1: Implementation of an appointment manager"
+
+Task1: Record manager does not contain all the appropriate methods. It should include changing name and address.
+It is best to separate getters and setters in your student class.
+Task 2: Your module class testing is insufficient. You are not testing your getters and setters. 
+You did not tests if you are able to store a student, retrieve a full list of students, creating multiple record managers and searching for a student by name.
+Task 3: Your addModuleTest is incomplete. You have not done any error checking. Your test names lack description. It should tell us what is being tested and the expected outcome. 
+You have commented in your averageMarkTest but please remember to be consistent and comment for the rest of your test cases as well. It is good that you have only 1 assert statement in your test cases.
+It would have been better to initialise your parameters using @Before to prevent duplication.
+Some changes have been made to your production code that differs from your UML design and that is fine as you have explained why in your header comments.
+More than half your tests fails first then pass.
+You have 2 tests that have failed at the same time and this does not follow TDD implementation.
+
+Ms D.d. Paramalingam
+
+Individual Feedback for "TDD2: Reflective report"
+It is good that you found TDD useful and reflected well on why you would use it again.
+You have also reflected well on the positives and negatives of TDD.
+
+Ms D.d. Paramalingam
